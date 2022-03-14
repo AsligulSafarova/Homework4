@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          *{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+          }
+          body{
+               font-family: sans-serif;
+               font-size: 14px;
+
+          }
+          img{
+               max-width: 100%;
+          }
+          .container{
+               width: 1280px;
+               height: 850px;
+               _background-color: grey;
+               position: relative;
+          }
+          .right{
+               width: 450px;
+               height: 220px;
+               display: flex;
+               position: absolute;
+               left: 550px;
+               top: 20px;
+               bottom: 30px;
+
+          }
+          .right h1{
+               font-size: 2.5em;
+               text-transform: uppercase;
+               width: 310px;
+          }
+          .right a{
+               text-decoration: none;
+               color: black;
+               position: absolute;
+               top: 80px;
+               left: 160px;
+               bottom: 20px;
+               font-size: 1.2em;
+          }
+          .wrapper{
+               display: flex;
+               flex-wrap: wrap;
+               gap:1.5em;
+               padding-top: 120px;
+               position: relative;
+               top: 35px;
+               bottom: 20px;
+               
+          }
+          .all{
+               width: 450px;
+               height: 250px;
+               display: flex;
+               position: relative;
+               left: 120px;
+           
+     
+
+          }
+          figure{
+               width: 220px;
+               height: 120px;
+               padding: 10px;
+    
+          }
+          .text{
+               margin-top: 80px;
+
+          }
+           .text h2::first-letter{
+               font-size: 1.2em;
+          } 
+          .text h2{
+               font-size: 1em;
+               padding-bottom: 10px;
+          }
+          .price{
+               padding-top: 30px;
+               font-size: 2.2em;
+               font-weight: bold;
+          }
+
+     </style>
+</head>
+<body>
+     <section>
+          <div class="container">
+          <div class="right">
+               <h1>The best deals in this season</h1>
+             <a href="#">shop new arrivals <sup>></sup></a>
+          </div>
+          <div class="wrapper">
+               <div class="all">
+               <figure>
+                    <img src="./imgs/hair.jpg" alt="">
+               </figure>
+               <div class="text">
+                    <h2>sample Headline</h2>
+                    <p>Lorem ipsum dolor sit amet. dolor sit amet</p>
+                    <p class="price">$250</p>
+               </div>
+          </div>
+          <div class="all">
+               <figure>
+                    <img src="./imgs/hair.jpg" alt="">
+               </figure>
+               <div class="text">
+                    <h2>sample Headline</h2>
+                    <p>Lorem ipsum dolor sit amet. dolor sit amet</p>
+                    <p class="price">$350</p>
+               </div>
+          </div>
+          <div class="all">
+               <figure>
+                    <img src="./imgs/hair.jpg" alt="">
+               </figure>
+               <div class="text">
+                    <h2>sample Headline</h2>
+                    <p>Lorem ipsum dolor sit amet. dolor sit amet</p>
+                    <p class="price">$200</p>
+               </div>
+          </div>
+          <div class="all">
+               <figure>
+                    <img src="./imgs/hair.jpg" alt="">
+               </figure>
+               <div class="text">
+                    <h2>sample Headline</h2>
+                    <p>Lorem ipsum dolor sit amet. dolor sit amet</p>
+                    <p class="price">$150</p>
+               </div>
+          </div>
+          </div>
+     </div>
+     </section>
+</body>
+</html>
